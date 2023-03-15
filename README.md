@@ -13,4 +13,8 @@ yarn dev
 5. Navigate to any website, e.g. example.com
 6. Click anywhere in the extension pop up, which is to the right of the browser address bar
 7. If it is working as intended, a screen capture of current page will be appended to the end of `document.body`
+  ![Working result](https://raw.githubusercontent.com/kmcheung12/html-to-image-bug-reproduction/older-but-working/working.png)
+
 8. On html-to-image `1.11.6+`, it gives error `TypeError: e.toDataURL is not a function`
+  ![Non-working result](https://raw.githubusercontent.com/kmcheung12/html-to-image-bug-reproduction/main/not-working.png)
+  
